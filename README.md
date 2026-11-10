@@ -47,10 +47,10 @@ El proyecto presenta una landing page que ofrece soluciones para conectar client
 
 ### Rodrigo Nicolás Molina
 
-- Aplicación utilizada:
-- Modelo utilizado: 
-- Tareas asistidas: 
-- Verificación realizada:
+- Aplicación utilizada: ChatGTP
+- Modelo utilizado: GPT-6.1 Plan gratuito
+- Tareas asistidas: Optimización de scripts JavaScript y preparación del plan de pruebas funcionales para la entrega.
+- Verificación realizada: Validación visual en navegador (responsive y modo oscuro), inspección de consola de desarrollador para garantizar ausencia de errores, comprobación de rutas de imágenes estáticas.
 
 ### Kevin Martínez Cáceres
 
