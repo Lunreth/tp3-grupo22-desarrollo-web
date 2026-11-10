@@ -7,7 +7,7 @@ Sitio web grupal desarrollado para **Desarrollo de Sistemas Web · Front End · 
 El proyecto presenta una landing page que ofrece soluciones para conectar clientes con profesionales de reparaciones según el servicio requerido, la ubicación y la disponibilidad.
 
 ## Integrantes
-- [Dominguez Angel](https://github.com/ad29dominguez-design): c
+- [Angel Dominguez](https://github.com/ad29dominguez-design): coordinación de instrucciones al agente, integración de la landing y revisión final.
 - [Cimar Gomez Torrez](https://github.com/CimarGomez): i
 - [David Carlos Ruiz Flores](https://github.com/Davidruizf): r
 - [Rodrigo Nicolás Molina](https://github.com/Rodrigo-Molina12506): A
@@ -24,10 +24,12 @@ El proyecto presenta una landing page que ofrece soluciones para conectar client
 
 ### Dominguez Angel
 
-- Aplicaciones utilizadas:
-- Modelo utilizado en ambas aplicaciones:
-- Tareas asistidas:
-- Verificación realizada:
+### Angel Dominguez
+- Aplicación utilizada: ChatGPT Codex.
+- Modelo utilizado: GPT-5.6 Sol.
+- Plan utilizado: ChatGPT Plus.
+- Tareas asistidas: análisis de la consigna, organización de tareas, elaboración de instrucciones    para el agente, edición de contenido y revisión de la integración de la landing.
+- Verificación realizada: revisión manual del código y del contenido generado, comprobación de los cambios en la landing y validación de su correspondencia con los requisitos del trabajo práctico.
 
 ### Cimar Gomez Torrez
 
@@ -64,4 +66,6 @@ https://tp3-grupo22-desarrollo-web.vercel.app/
 
 ## Estado del proyecto
 
-Los 
+El proyecto se encuentra en desarrollo. La estructura inicial de la landing, las soluciones propuestas, los diagramas, el modo claro/oscuro y la publicación preliminar en Vercel ya están implementados.
+
+Quedan pendientes la integración de los aportes individuales, la revisión cruzada, las pruebas finales, la actualización completa de la documentación y la validación grupal previa a la entrega.
