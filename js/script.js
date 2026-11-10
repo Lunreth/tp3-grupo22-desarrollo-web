@@ -30,13 +30,13 @@ themeToggle.addEventListener("click", function () {
 
 
 // ==============================
-// MENÚ RESPONSIVE PARA CELULARES
+// MENÃš RESPONSIVE PARA CELULARES
 // ==============================
 
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 
-// Abrir y cerrar el menú.
+// Abrir y cerrar el menÃº.
 menuToggle.addEventListener("click", function () {
 
     navLinks.classList.toggle("active");
@@ -48,7 +48,7 @@ menuToggle.addEventListener("click", function () {
 
 });
 
-// Cerrar el menú al seleccionar una sección.
+// Cerrar el menÃº al seleccionar una secciÃ³n.
 const menuItems = document.querySelectorAll(".nav-links a");
 
 menuItems.forEach(function (item) {
@@ -63,7 +63,7 @@ menuItems.forEach(function (item) {
 
 });
 
-// Cerrar el menú con la tecla Escape.
+// Cerrar el menÃº con la tecla Escape.
 document.addEventListener("keydown", function (event) {
 
     if (event.key === "Escape") {
