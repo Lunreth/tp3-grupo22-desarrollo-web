@@ -774,3 +774,124 @@ button {
         font-size: 0.8rem;
     }
 }
+
+/* ==============================
+   R5 · NEXO SafeCheck (David Ruiz)
+============================== */
+
+.rule-sheet {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.rule-sheet-item {
+    padding: 16px 18px;
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    background: rgba(83, 109, 254, 0.04);
+}
+
+.rule-sheet-label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--primary);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.rule-sheet-item p {
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+}
+
+.solution-description p + p {
+    margin-top: -15px;
+}
+
+/* Leyenda: sentencia vs decisión del grupo */
+.diagram-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 26px;
+    list-style: none;
+    margin-top: 10px;
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+}
+
+.diagram-legend li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.legend-swatch {
+    width: 26px;
+    height: 14px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+}
+
+.legend-swatch.group-decision,
+.flow-node.group-decision {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: var(--warning);
+}
+
+.flow-node.from-rule {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.flow-node small {
+    display: block;
+    margin-top: 6px;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.diagram-container + .diagram-title {
+    margin-top: 45px;
+}
+
+/* Casos de prueba */
+.cases-title {
+    margin: 24px 0 10px;
+    color: var(--text);
+    font-size: 1rem;
+}
+
+.cases-wrapper {
+    overflow-x: auto;
+}
+
+.cases-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.cases-table th,
+.cases-table td {
+    padding: 10px 12px;
+    border: 1px solid var(--glass-border);
+    text-align: left;
+}
+
+.cases-table th {
+    background: rgba(83, 109, 254, 0.08);
+    color: var(--text);
+}
+
+@media (max-width: 900px) {
+    .rule-sheet {
+        grid-template-columns: 1fr;
+    }
+}
