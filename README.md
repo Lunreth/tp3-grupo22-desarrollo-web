@@ -52,10 +52,10 @@ El proyecto presenta una landing page que ofrece soluciones para conectar client
 
 ### Kevin Martínez Cáceres
 
-- Aplicación informada:
-- Modelo utilizado:
-- Tareas asistidas: 
-- Verificación realizada: 
+- Aplicación informada: ChatGPT
+- Modelo utilizado: GPT-6.1 Plan gratuito
+- Tareas asistidas: Primeras versiones de la estructura de la web, estilos básicos e implementación de JavaScript inicial.
+- Verificación realizada: Pruebas y debug del modo claro/oscuro.
 
 ## Publicación
 
