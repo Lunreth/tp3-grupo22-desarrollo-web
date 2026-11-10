@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEXO conecta clientes con profesionales de servicios y reparaciones. Grupo 22 - IFTS 29.">
+    <title>NEXO | Servicios y reparaciones</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="brand">
+                <!-- Reemplazar la ruta por el logo oficial de NEXO -->
+                <img src="assets/img/logo-nexo.png" alt="Logo de NEXO" class="logo">
+                <span>NEXO</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+                ?
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#soluciones">Soluciones</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li>
+                    <button id="themeToggle" class="theme-button" aria-label="Cambiar tema">
+                        <span id="themeIcon">?</span>
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <span class="eyebrow">GRUPO 22 · IFTS 29</span>
+
+                    <h1>Conectamos necesidades con <span>soluciones.</span></h1>
+
+                    <p>
+                        NEXO es una plataforma que conecta clientes con profesionales
+                        de servicios y reparaciones, teniendo en cuenta el tipo de
+                        servicio, la ubicación y la disponibilidad.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#soluciones" class="btn btn-primary">Conocer las soluciones</a>
+                        <a href="#equipo" class="btn btn-secondary">Nuestro equipo</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual glass">
+                    <!-- Espacio reservado para una imagen ilustrativa -->
+                    <img src="assets/img/imagen-principal.png"
+                         alt="Ilustración de servicios de NEXO"
+                         class="hero-image">
+                    <div class="visual-caption">
+                        <span class="status-dot"></span>
+                        Profesionales y clientes conectados
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PRESENTACIÓN -->
+        <section class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">NUESTRA PROPUESTA</span>
+                    <h2>¿Qué busca resolver NEXO?</h2>
+                    <p>
+                        Facilitar la búsqueda de profesionales confiables y disponibles,
+                        haciendo que el proceso de solicitud sea claro y seguro.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card glass">
+                        <div class="feature-icon">?</div>
+                        <h3>Búsqueda sencilla</h3>
+                        <p>Permite encontrar profesionales según el servicio que necesita el cliente.</p>
+                    </article>
+
+                    <article class="feature-card glass">
+                        <div class="feature-icon">?</div>
+                        <h3>Mayor confianza</h3>
+                        <p>Considera la verificación del profesional antes de enviar una solicitud.</p>
+                    </article>
+
+                    <article class="feature-card glass">
+                        <div class="feature-icon">?</div>
+                        <h3>Decisión del cliente</h3>
+                        <p>El cliente conserva el control sobre las alternativas y contrataciones.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SOLUCIONES -->
+        <section class="section solutions-section" id="soluciones">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">BLOQUE S11-C · COMPROBACIÓN Y RECHAZO</span>
+                    <h2>Dos situaciones, dos soluciones</h2>
+                    <p>
+                        Diseñamos dos flujos de trabajo para responder ante situaciones
+                        que pueden ocurrir durante una solicitud de servicio.
+                    </p>
+                </div>
+
+                <!-- SOLUCIÓN R5 -->
+                <article class="solution-card glass">
+
+                    <div class="solution-header">
+                        <div>
+                            <span class="solution-number">SOLUCIÓN 01 · R5</span>
+                            <h3>NEXO SafeCheck</h3>
+                        </div>
+                        <span class="tag">Comprobación</span>
+                    </div>
+
+                    <blockquote class="original-rule">
+                        “Si una propuesta pierde disponibilidad o verificación antes
+                        del envío, el sistema detiene la solicitud y pide al cliente
+                        revisar otras opciones.”
+                    </blockquote>
+
+                    <div class="solution-description">
+                        <h4>¿Qué proponemos?</h4>
+                        <p>
+                            Antes de enviar una solicitud, NEXO comprueba que el
+                            profesional continúe disponible y que su verificación
+                            siga vigente. Si alguna de estas condiciones deja de
+                            cumplirse, el sistema detiene el envío y solicita al
+                            cliente revisar otras opciones.
+                        </p>
+                    </div>
+
+                    <h4 class="diagram-title">Diagrama del flujo R5</h4>
+
+                    <div class="diagram-container">
+                        <div class="flow-node start-node">Inicio: cliente selecciona una propuesta</div>
+                        <div class="flow-arrow">?</div>
+
+                        <div class="flow-node process-node">
+                            Consultar disponibilidad y verificación del profesional
+                        </div>
+
+                        <div class="flow-arrow">?</div>
+
+                        <div class="flow-node decision-node">
+                            ¿Está disponible y verificado?
+                        </div>
+
+                        <div class="flow-branches">
+                            <div class="flow-branch">
+                                <span class="branch-label yes">SÍ</span>
+                                <div class="flow-arrow">?</div>
+                                <div class="flow-node success-node">
+                                    Continuar con el envío normal de la solicitud
+                                </div>
+                            </div>
+
+                            <div class="flow-branch">
+                                <span class="branch-label no">NO</span>
+                                <div class="flow-arrow">?</div>
+                                <div class="flow-node warning-node">
+                                    Detener el envío, informar al cliente y pedirle revisar otras opciones
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <details class="details-box">
+                        <summary>Ver explicación detallada del flujo</summary>
+                        <div class="details-content">
+                            <p><strong>Entrada:</strong> propuesta seleccionada, disponibilidad y estado de verificación.</p>
+                            <p><strong>Condición:</strong> se comprueba que ambas condiciones sean verdaderas.</p>
+                            <p><strong>Resultado positivo:</strong> si el profesional está disponible y verificado, se continúa con el envío normal.</p>
+                            <p><strong>Resultado negativo:</strong> si pierde disponibilidad o verificación, se detiene la solicitud y se informa al cliente.</p>
+                            <p><strong>Herramientas involucradas:</strong> base de datos de profesionales, servicio de disponibilidad, registro de verificaciones y sistema de notificaciones.</p>
+                        </div>
+                    </details>
+
+                </article>
+
+                <!-- SOLUCIÓN R6 -->
+                <article class="solution-card glass">
+
+                    <div class="solution-header">
+                        <div>
+                            <span class="solution-number">SOLUCIÓN 02 · R6</span>
+                            <h3>NEXO ReMatch</h3>
+                        </div>
+                        <span class="tag">Rechazo</span>
+                    </div>
+
+                    <blockquote class="original-rule">
+                        “Si el profesional rechaza la solicitud, el sistema informa el
+                        rechazo y ofrece buscar alternativas sin contratar a otra
+                        persona automáticamente.”
+                    </blockquote>
+
+                    <div class="solution-description">
+                        <h4>¿Qué proponemos?</h4>
+                        <p>
+                            Cuando un profesional rechaza una solicitud, NEXO registra
+                            el rechazo, actualiza el estado de la solicitud y notifica
+                            al cliente. Luego le ofrece buscar otros profesionales
+                            para el mismo servicio y ubicación. La decisión final
+                            siempre queda en manos del cliente.
+                        </p>
+                    </div>
+
+                    <h4 class="diagram-title">Diagrama del flujo R6</h4>
+
+                    <div class="diagram-container">
+                        <div class="flow-node start-node">El profesional recibe la solicitud</div>
+                        <div class="flow-arrow">?</div>
+
+                        <div class="flow-node process-node">El profesional evalúa la solicitud</div>
+                        <div class="flow-arrow">?</div>
+
+                        <div class="flow-node decision-node">¿Rechaza la solicitud?</div>
+
+                        <div class="flow-branches">
+                            <div class="flow-branch">
+                                <span class="branch-label yes">SÍ</span>
+                                <div class="flow-arrow">?</div>
+                                <div class="flow-node process-node">
+                                    Registrar rechazo y actualizar el estado
+                                </div>
+                                <div class="flow-arrow">?</div>
+                                <div class="flow-node process-node">
+                                    Notificar al cliente y ofrecer alternativas
+                                </div>
+                                <div class="flow-arrow">?</div>
+                                <div class="flow-node decision-node">
+                                    ¿El cliente desea buscar alternativas?
+                                </div>
+                                <div class="flow-arrow">?</div>
+                                <div class="flow-node success-node">
+                                    Sí: iniciar una nueva búsqueda. El cliente elige.
+                                </div>
+                                <div class="flow-node neutral-node">
+                                    No: esperar la decisión del cliente. No contratar a nadie.
+                                </div>
+                            </div>
+
+                            <div class="flow-branch">
+                                <span class="branch-label no">NO</span>
+                                <div class="flow-arrow">?</div>
+                                <div class="flow-node success-node">
+                                    Finalizar el flujo de rechazo
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <details class="details-box">
+                        <summary>Ver explicación detallada del flujo</summary>
+                        <div class="details-content">
+                            <p><strong>Entrada:</strong> solicitud enviada y respuesta del profesional.</p>
+                            <p><strong>Condición:</strong> el profesional rechaza la solicitud.</p>
+                            <p><strong>Acciones:</strong> registrar el rechazo, actualizar el estado y notificar al cliente.</p>
+                            <p><strong>Alternativas:</strong> el sistema ofrece buscar otros profesionales para el servicio y ubicación originales.</p>
+                            <p><strong>Control del cliente:</strong> la búsqueda puede iniciarse si el cliente lo acepta. Nunca se contrata automáticamente a otra persona.</p>
+                            <p><strong>Herramientas involucradas:</strong> base de datos de solicitudes, sistema de notificaciones, buscador de profesionales y gestión de estados.</p>
+                        </div>
+                    </details>
+
+                </article>
+
+            </div>
+        </section>
+
+        <!-- EQUIPO -->
+        <section class="section" id="equipo">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">GRUPO 22</span>
+                    <h2>Conocé al equipo</h2>
+                    <p>Integrantes responsables del desarrollo de la propuesta NEXO.</p>
+                </div>
+
+                <div class="team-grid">
+
+                    <article class="team-card glass">
+                        <div class="avatar-placeholder">01</div>
+                        <h3>Integrante 1</h3>
+                        <p>Coordinación y organización</p>
+                    </article>
+
+                    <article class="team-card glass">
+                        <div class="avatar-placeholder">02</div>
+                        <h3>Integrante 2</h3>
+                        <p>Análisis de las consignas</p>
+                    </article>
+
+                    <article class="team-card glass">
+                        <div class="avatar-placeholder">03</div>
+                        <h3>Integrante 3</h3>
+                        <p>Diseño de diagramas</p>
+                    </article>
+
+                    <article class="team-card glass">
+                        <div class="avatar-placeholder">04</div>
+                        <h3>Integrante 4</h3>
+                        <p>Diseño y contenido web</p>
+                    </article>
+
+                    <article class="team-card glass">
+                        <div class="avatar-placeholder">05</div>
+                        <h3>Integrante 5</h3>
+                        <p>Pruebas y documentación</p>
+                    </article>
+
+                </div>
+
+                <p class="team-note">
+                    Los nombres, fotografías y funciones son editables.
+                    Reemplacen estos datos por los de los integrantes reales.
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <h2>NEXO</h2>
+                <p>Conectamos necesidades con soluciones.</p>
+            </div>
+
+            <div class="footer-info">
+                <p>Grupo 22 · IFTS 29</p>
+                <p>Trabajo práctico 3 · Dos sentencias, dos soluciones</p>
+                <p>Bloque S11-C · Comprobación y rechazo</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Proyecto académico · 2026</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
