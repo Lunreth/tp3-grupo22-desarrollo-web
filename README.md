@@ -60,7 +60,7 @@ El proyecto presenta una landing page que ofrece soluciones para conectar client
 ## Publicación
 
 URL de Vercel:
-https://tp2-grupo22-desarrollo-web-tau.vercel.app/
+https://tp3-grupo22-desarrollo-web.vercel.app/
 
 ## Estado del proyecto
 
