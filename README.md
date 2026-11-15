@@ -22,8 +22,6 @@ El proyecto presenta una landing page que ofrece soluciones para conectar client
 
 ## Uso de Inteligencia Artificial
 
-### Dominguez Angel
-
 ### Angel Dominguez
 - Aplicación utilizada: ChatGPT Codex.
 - Modelo utilizado: GPT-5.6 Sol.
