@@ -193,14 +193,14 @@
                     <details class="details-box">
                         <summary>Ver explicación detallada del flujo</summary>
                         <div class="details-content">
-                            <p><strong>Entrada:</strong> propuesta seleccionada, disponibilidad y estado de
+                            <p><strong>Entrada:</strong> Propuesta seleccionada, disponibilidad y estado de
                                 verificación.</p>
                             <p><strong>Condición:</strong> se comprueba que ambas condiciones sean verdaderas.</p>
-                            <p><strong>Resultado positivo:</strong> si el profesional está disponible y verificado, se
+                            <p><strong>Resultado positivo:</strong> Si el profesional está disponible y verificado, se
                                 continúa con el envío normal.</p>
-                            <p><strong>Resultado negativo:</strong> si pierde disponibilidad o verificación, se detiene
+                            <p><strong>Resultado negativo:</strong> Si pierde disponibilidad o verificación, se detiene
                                 la solicitud y se informa al cliente.</p>
-                            <p><strong>Herramientas involucradas:</strong> base de datos de profesionales, servicio de
+                            <p><strong>Herramientas involucradas:</strong> Base de datos de profesionales, servicio de
                                 disponibilidad, registro de verificaciones y sistema de notificaciones.</p>
                         </div>
                     </details>
@@ -263,17 +263,18 @@
                                 </div>
                                 <div class="flow-arrow">↓</div>
                                 <div class="flow-node success-node">
-                                    Sí: iniciar una nueva búsqueda. El cliente elige.
+                                    Sí: Iniciar una nueva búsqueda. El cliente elige.
                                 </div>
-                                <div class="flow-node neutral-node">
-                                    No: esperar la decisión del cliente. No contratar a nadie.
+                                <div class="flow-node warning-node">
+                                    Finalizar el proceso de búsqueda de alternativas.
+                                    No contratar a otro profesional.
                                 </div>
                             </div>
 
                             <div class="flow-branch">
                                 <span class="branch-label no">NO</span>
                                 <div class="flow-arrow">↓</div>
-                                <div class="flow-node success-node">
+                                <div class="flow-node warning-node">
                                     Finalizar el flujo de rechazo
                                 </div>
                             </div>
@@ -293,6 +294,15 @@
                                 acepta. Nunca se contrata automáticamente a otra persona.</p>
                             <p><strong>Herramientas involucradas:</strong> base de datos de solicitudes, sistema de
                                 notificaciones, buscador de profesionales y gestión de estados.</p>
+                            <p>
+                                <strong>Intervención humana:</strong>
+                                Si el agente no puede confirmar que el estado de la solicitud
+                                se haya actualizado correctamente después de recibir el rechazo,
+                                pausa el proceso y deriva el caso a una persona responsable
+                                de soporte. Se informa al cliente que su solicitud requiere
+                                una revisión. Mientras se resuelve la inconsistencia, no se
+                                inicia otra búsqueda ni se contrata a otro profesional.
+                            </p>
                         </div>
                     </details>
 

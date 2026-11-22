@@ -31,10 +31,10 @@ El proyecto presenta una landing page que ofrece soluciones para conectar client
 
 ### Cimar Gomez Torrez
 
-- Aplicación utilizada:
-- Modelo utilizado:
-- Tareas asistidas: 
-- Verificación realizada:
+- Aplicación utilizada: ChatGTP
+- Modelo utilizado: GPT-6.1 Plan gratuito
+- Tareas asistidas: Análisis de la regla R6, elaboración de su ficha identificando los datos necesarios, la condición y la consecuencia.
+- Verificación realizada: Se comprobó que la propuesta respete la sentencia original, informe el rechazo al cliente, ofrezca alternativas y no contrate automáticamente a otro profesional.
 
 ### David Carlos Ruiz Flores
 
