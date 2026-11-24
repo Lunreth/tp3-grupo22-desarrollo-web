@@ -99,6 +99,14 @@ Para ejecutar el proyecto localmente:
 
 Este proyecto no requiere instalar dependencias adicionales.
 
+## Organización y evidencias del trabajo grupal
+
+La planificación, los aportes individuales y el material del coloquio se encuentran disponibles en los siguientes enlaces:
+
+- [Registro de distribución de tareas](https://docs.google.com/document/d/1Q2wCq8kF9C6VKhGZxpyiolA4h3D2L6wm/edit?usp=drive_link&ouid=112576197435375782071&rtpof=true&sd=true)
+- [Registro de aportes de los integrantes](https://docs.google.com/document/d/1rrSh4Y0y234RnuVkiS1t__XxURheFahuoY_vkFPh1p4/edit?usp=drive_link)
+- [Carpeta de materiales y video del coloquio](https://drive.google.com/drive/folders/1RHguD799nU_xxMGyBjqxTtoMVwcC1M6v)
+
 ## Publicación
 
 - [Sitio publicado en Vercel](https://tp3-grupo22-desarrollo-web.vercel.app/)
