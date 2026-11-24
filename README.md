@@ -8,7 +8,7 @@ El proyecto presenta una landing page para **NEXO**, una startup desarrollada or
 
 En este trabajo se analizaron y representaron dos reglas de negocio mediante sus respectivas sentencias, condiciones, consecuencias y diagramas:
 
-- **Regla R5:** comprobación de la finalización de un trabajo y gestión de su estado.
+- **Regla R5:** comprobación de la disponibilidad y del estado de verificación del profesional antes de enviar una solicitud.
 - **Regla R6:** comprobación y rechazo de una solicitud cuando el profesional seleccionado no está disponible.
 
 La intervención humana incorporada en el flujo de la Regla R6 corresponde a una decisión de diseño del Grupo 22, orientada a evitar la contratación automática de otro profesional sin la confirmación del cliente.
